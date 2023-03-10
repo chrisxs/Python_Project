@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 from openpyxl import Workbook
 from tqdm import tqdm
 
-# 获取输入的网址123
+# 获取输入的网址
 url = input("滑稽爬虫，主页：chrisxs.com\n请输入域名：https://")
 
 # 判断协议类型
