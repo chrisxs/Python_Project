@@ -29,7 +29,7 @@ while True:
     voltage_drop = resistance * load_current * length
 
     # 输出结果
-    print("导线的直流电电压降压为：%.2f伏特" % voltage_drop)
+    print("导线的直流电电压降压为：%.3f伏特" % voltage_drop)
 
     # 错误处理
     if voltage_drop / load_voltage > 0.1:
