@@ -1,6 +1,8 @@
 import platform
 import psutil
 
+print("硬件信息速查工具，来源：chrisxs.com")
+
 # 检测操作系统和平台
 if platform.system() == "Windows":
     import wmi
@@ -59,5 +61,6 @@ for interface_name, interface_addresses in net_if_addrs.items():
            if str(address.family) == 'AddressFamily.AF_PACKET':
             print(f"MAC地址：{address.address}")
             print(f"地址族：{address.family}")
-            
+
+print("\n硬件信息已经列出 \n硬件信息速查工具，兼容Linux和Windows，来源：chrisxs.com")        
 input("\n按任意键退出")
